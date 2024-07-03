@@ -7,7 +7,7 @@ export default function About() {
           <p>
             I recently graduated with a Bachelor of Science in Computer Science
             from Loyola Marymount University. I also completed a double minor in
-            Studio Arts (graphic design emphasis) and Women's and Gender
+            Studio Arts (graphic design emphasis) and Women&#39;s and Gender
             Studies.
           </p>
           <p>
@@ -17,11 +17,11 @@ export default function About() {
           </p>
           <p>
             I have also held various teaching positions. For two years, I served
-            as a teaching assistant for the Girls Who Code's Summer Immersion
-            Program, introducing high school students to web development.
-            Additionally, I tutored for LMU's CS department for three years,
-            providing support in classes such as Intro to Programming and
-            Discrete Math.
+            as a teaching assistant for the Girls Who Code&#39;s Summer
+            Immersion Program, introducing high school students to web
+            development. Additionally, I tutored for LMU&#39;s CS department for
+            three years, providing support in classes such as Intro to
+            Programming and Discrete Math.
           </p>
           <p>Based in Los Angeles, California.</p>
         </div>

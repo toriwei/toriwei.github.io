@@ -8,7 +8,7 @@ export default function Home() {
       <div className='intro text-4xl lg:text-5xl'>
         <div className='mx-[15%] mt-[5%] mb-[7%] leading-snug'>
           <p>
-            Hi, I'm Tori. <br />I am a software engineer passionate about
+            Hi, I&#39;m Tori. <br />I am a software engineer passionate about
             creating human-centered tech, dynamic design, and inclusive digital
             connections.
           </p>
