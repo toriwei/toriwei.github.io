@@ -25,13 +25,13 @@ export default function Skills() {
   return (
     <div>
       <h1>Skills</h1>
-      <div className='skills-container flex flex-wrap justify-between px-16 text-xl md:text-2xl'>
+      <div className='skills-container flex flex-wrap justify-between text-md sm:text-2xl'>
         {skills.map((skill) => (
           <span
             key={skill.name}
             className={`${[skillColors[skill.type].main]} ${
               skill.type === 'tool' ? 'text-white' : ''
-            } rounded-full px-8 py-2 mb-4 cursor-custom`}
+            } rounded-full px-6 sm:px-8 py-2 mb-4 cursor-custom`}
             onMouseEnter={() =>
               handleMouseEnter(skillColors[skill.type].complement)
             }

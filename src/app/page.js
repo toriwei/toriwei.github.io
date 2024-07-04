@@ -5,8 +5,8 @@ import Skills from './components/work/skills'
 export default function Home() {
   return (
     <main>
-      <div className='intro text-4xl lg:text-5xl'>
-        <div className='mx-[15%] mt-[5%] mb-[7%] leading-snug'>
+      <div className='intro text-2xl md:text-3xl lg:text-5xl'>
+        <div className='mx-8 md:mx-20 md:mx-44 mt-[5%] mb-0 md:mb-20 leading-snug'>
           <p>
             Hi, I&#39;m Tori. <br />I am a software engineer passionate about
             creating human-centered tech, dynamic design, and inclusive digital

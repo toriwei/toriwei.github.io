@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={space_grotesk.className}>
-        <div className='mx-12 my-4 text-md md:text-lg'>
+        <div className='mx-8 md:mx-12 my-4 text-md md:text-lg'>
           <Navbar />
           {children}
           <Contact />

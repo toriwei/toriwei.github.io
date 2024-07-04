@@ -29,15 +29,15 @@ export default function Projects() {
                 project.name === activeProject.name
                   ? 'bg-palette-blue bg-opacity-90'
                   : 'bg-black bg-opacity-70'
-              } absolute inset-0 flex items-center justify-center hover:bg-palette-blue hover:bg-opacity-60 text-white`}
+              } absolute inset-0 flex items-center justify-center hover:bg-palette-blue hover:bg-opacity-60 text-white text-sm md:text-xl`}
             >
               {project.name}
             </span>
           </div>
         ))}
       </div>
-      <div className='project-container px-16 mt-4'>
-        <div className='project-photos flex my-8 max-h-64 space-x-4'>
+      <div className='project-container px-4 sm:px-8 md:px-16 sm:mt-4'>
+        <div className='project-photos flex flex-col sm:flex-row my-4 sm:my-8 sm:max-h-64 space-y-4 sm:space-y-0 sm:space-x-4'>
           {activeProject.photos.map((photo) => (
             <div key={photo} className='flex'>
               <img
@@ -50,7 +50,7 @@ export default function Projects() {
         </div>
         <h2>{activeProject.name}</h2>
         <div className='flex flex-col md:flex-row justify-between'>
-          <div className='flex flex-col w-3/4 md:w-2/4'>
+          <div className='flex flex-col w-1/1 md:w-2/4'>
             <div className='flex flex-wrap'>
               {activeProject.links.map((link) => (
                 <span key={`${activeProject}-${link.site}`}>
@@ -69,7 +69,7 @@ export default function Projects() {
             </div>
             <p className='mt-4'>{activeProject.description}</p>
           </div>
-          <div className='flex flex-col mt-4 md:mt-0 w-3/4 md:w-1/4 mt-2'>
+          <div className='flex flex-col mt-4 md:mt-0 w-1/1 md:w-1/4 mt-2'>
             <h2>Tech Stack</h2>
             <p>{activeProject.techStack.join(' / ')}</p>
           </div>

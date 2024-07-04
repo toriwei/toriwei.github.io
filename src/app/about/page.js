@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <main>
-      <h1 className='pt-4'>Some Things About Me</h1>
-      <div className='flex flex-col md:flex-row px-16 md:space-x-12 space-y-12 md:space-y-0'>
+      <h1 className='mt-2 md:mt-4'>Some Things About Me</h1>
+      <div className='flex flex-col md:flex-row md:space-x-12 space-y-12 md:space-y-0'>
         <div className='md:w-3/5 space-y-4 md:space-y-8'>
           <p>
             I recently graduated with a Bachelor of Science in Computer Science
