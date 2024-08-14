@@ -1,5 +1,18 @@
 const projectInfo = [
   {
+    name: 'NWSLink',
+    displayPhoto: './project-photos/nwslink-find-teammates.png',
+    description:
+      "A graph database that explores the club and teammate histories of players in the National Women's Soccer League. Made with Python and Neo4j's query language Cypher.",
+    links: [{ site: 'GitHub', url: 'https://github.com/toriwei/nwslink' }],
+    date: 'Aug 2024 \u{2013} Present',
+    techStack: ['python, Neo4j, cypher'],
+    photos: [
+      './project-photos/nwslink-shortest-connection.png',
+      './project-photos/nwslink-shortest-connection-2.png',
+    ],
+  },
+  {
     name: 'The Living Archive',
     displayPhoto: './project-photos/tla-landing.png',
     description:

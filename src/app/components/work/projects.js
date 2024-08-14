@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <div>
       <h1>Projects</h1>
-      <div className='project-nav relative w-full flex max-h-48 border border-2 border-black'>
+      <div className='project-nav relative w-full flex max-h-40 border border-2 border-black'>
         {projects.map((project) => (
           <div
             key={project.name}
@@ -39,7 +39,7 @@ export default function Projects() {
       <div className='project-container px-4 sm:px-8 md:px-16 sm:mt-4'>
         <div className='project-photos flex flex-col sm:flex-row my-4 sm:my-8 sm:max-h-64 space-y-4 sm:space-y-0 sm:space-x-4'>
           {activeProject.photos.map((photo) => (
-            <div key={photo} className='flex'>
+            <div key={photo} className='flex max-w-1/4'>
               <img
                 key={photo}
                 src={photo}
