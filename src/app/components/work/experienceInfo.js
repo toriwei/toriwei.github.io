@@ -3,8 +3,8 @@ const experiences = [
     name: 'Freelance',
     subtitle: 'LA / May 2024 \u{2013} Present',
     bullets: [
-      'Creates customized portfolios using Figma, Squarespace, and WordPress, focusing on user-friendly and intuitive design',
-      'Communicates with clients to ensure final product reflects personal branding, ensuring satisfaction across iterations',
+      'Creates customized portfolios using Figma, Squarespace, and WordPress, focusing on user-friendly design',
+      'Communicates with clients to ensure product reflects personal branding, ensuring satisfaction across iterations',
     ],
   },
   {
@@ -12,7 +12,7 @@ const experiences = [
     subtitle: 'SF / Jun \u{2013} Aug 2023',
     bullets: [
       'Developed CBS News app for OTT platforms using Riot.js, JavaScript, and Sass as a software engineer intern',
-      'Implemented new channel-pinning feature and resolved full-stack bugs to improve functionality and modernize UX',
+      'Implemented new channel-pinning feature and resolved full-stack bugs to improve functionality and UX',
       'Established monorepo by merging 4 codebases and wrote automation scripts to optimize CI/CD workflow',
     ],
   },
@@ -21,7 +21,7 @@ const experiences = [
     subtitle: 'LA / May \u{2013} Jun 2023',
     bullets: [
       'Designed binary classification models using python and scikit-learn to identify walking surfaces (human activity recognition)',
-      'Achieved classification accuracy of 96.6% with K-Nearest Neighbors algorithm, highest of 4 algorithms analyzed',
+      'Achieved classification accuracy of 96.6% with K-Nearest Neighbors, highest of 4 algorithms analyzed',
       'Performed K-Best and Regressive Feature Elimination methods to select 16 features for use in train-test split',
     ],
   },

@@ -3,7 +3,7 @@ export default function Experience() {
   return (
     <div>
       <h1>Experience</h1>
-      <div className='experience-container flex flex-col sm:px-8 md:pl-16 md:pr-0  md:w-6/12'>
+      <div className='experience-container flex flex-col sm:px-8 md:px-16 md:grid md:grid-cols-3 md:gap-y-8 md:gap-x-16'>
         {experiences.map((experience) => (
           <div key={experience.name} className='flex flex-col mb-8'>
             <div className='font-bold'>
