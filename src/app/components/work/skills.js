@@ -25,7 +25,7 @@ export default function Skills() {
   return (
     <div>
       <h1>Skills</h1>
-      <div className='skills-container flex flex-wrap justify-between text-md sm:text-2xl space-x-2 sm:px-8 md:pl-16'>
+      <div className='skills-container flex flex-wrap justify-between text-md sm:text-2xl space-x-2 sm:px-8 md:px-16'>
         {skills.map((skill) => (
           <span
             key={skill.name}

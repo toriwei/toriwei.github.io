@@ -2,17 +2,17 @@ export default function About() {
   return (
     <main>
       <h1 className='mt-2 md:mt-4'>Some Things About Me</h1>
-      <div className='flex flex-col sm:px-8 md:pl-16 md:flex-row md:space-x-12 space-y-12 md:space-y-0'>
-        <div className='md:w-3/5 space-y-4 md:space-y-8'>
+      <div className='flex flex-col sm:px-8 md:px-16 md:flex-row md:space-x-12 space-y-12 md:space-y-0'>
+        <div className='md:w-7/12 space-y-4 md:space-y-8'>
           <p>
-            I recently graduated with a Bachelor of Science in Computer Science
-            from Loyola Marymount University. I also completed a double minor in
+            I graduated with a Bachelor of Science in Computer Science from
+            Loyola Marymount University. I also completed a double minor in
             Studio Arts (graphic design emphasis) and Women&#39;s and Gender
             Studies.
           </p>
           <p>
             With experience gained through a full-stack engineering internship
-            and an AI modeling research position, I am proficient in React,
+            and a machine learning research position, I am proficient in React,
             JavaScript, UI/UX design, AI, and databases.
           </p>
           <p>
@@ -25,8 +25,8 @@ export default function About() {
           </p>
           <p>Based in Los Angeles, California.</p>
         </div>
-        <div className='w-2/3 md:w-1/3'>
-          <img src='./tori.png' />
+        <div className='w-2/3 md:w-5/12'>
+          <img src='./headshot.jpg' className='border-2 border-black' />
         </div>
       </div>
     </main>
