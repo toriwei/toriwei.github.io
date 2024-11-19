@@ -36,15 +36,15 @@ export default function Projects() {
           </div>
         ))}
       </div>
-      <div className='project-container px-4 sm:px-8 md:px-16 sm:mt-4'>
+      <div className='project-container px-4 px-8 sm:mt-4'>
         <div className='project-photos flex flex-col sm:flex-row my-4 sm:my-8 sm:max-h-64 space-y-4 sm:space-y-0 sm:space-x-4'>
           {activeProject.photos.map((photo) => (
             <div key={photo} className='flex max-w-1/4'>
               <img
                 key={photo}
                 src={photo}
-                className={`border-2 border-black object-cover w-full`}
-              ></img>
+                className={`border-2 border-black object-cover w-full object-top`}
+              />
             </div>
           ))}
         </div>

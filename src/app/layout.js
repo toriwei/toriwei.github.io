@@ -4,7 +4,7 @@ import Contact from './components/work/contact'
 
 import './globals.css'
 
-const space_grotesk = Space_Grotesk({ subsets: ['latin'] })
+const space_grotesk = Space_Grotesk({ subsets: ['latin'], display: 'swap' })
 
 export const metadata = {
   title: 'Tori Wei',
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={space_grotesk.className}>
-        <div className='mx-8 md:mx-16 my-4 text-md md:text-lg'>
+        <div className='mx-8 md:mx-20 my-4 text-md md:text-lg'>
           <Navbar />
           {children}
           <Contact />

@@ -3,20 +3,28 @@ const projectInfo = [
     name: 'NWSLink',
     displayPhoto: './project-photos/nwslink-find-teammates.png',
     description:
-      "A graph database that explores the club and teammate histories of players in the National Women's Soccer League. Made with Python and Neo4j's query language, Cypher. Personal project.",
+      "A graph database that explores the club and teammate histories of players in the National Women's Soccer League. Extended to a web-based guessing game. Personal project.",
     links: [{ site: 'GitHub', url: 'https://github.com/toriwei/nwslink' }],
     date: 'Aug 2024 \u{2013} Present',
-    techStack: ['cypher, Neo4j, Python'],
+    techStack: [
+      'Python',
+      'Neo4j',
+      'cypher',
+      'Flask REST API',
+      'Next.js',
+      'Tailwind CSS',
+      'mocha',
+    ],
     photos: [
-      './project-photos/nwslink-shortest-connection.png',
-      './project-photos/nwslink-shortest-connection-2.png',
+      './project-photos/nwslink-find-teammates.png',
+      './project-photos/nwslink-game.png',
     ],
   },
   {
     name: 'The Living Archive',
     displayPhoto: './project-photos/tla-landing.png',
     description:
-      'A crowdsourced archive site dedicated to telling stories of the queer community at LMU. Equipped with an intuitive UI and interactive map to encourage discovery. Created for the LMU Senior Project classes.',
+      'A crowdsourced archive to tell stories of the queer community at LMU. Equipped with an intuitive UI and interactive map to encourage discovery. Includes content management system for admin. Created for the LMU Senior Project classes.',
     links: [
       { site: 'GitHub', url: 'https://github.com/toriwei/the-living-archive' },
       { site: 'Website', url: 'https://the-living-archive.vercel.app/' },
@@ -57,7 +65,7 @@ const projectInfo = [
     name: 'IEPordle',
     displayPhoto: './project-photos/iepordle-game.png',
     description:
-      'A custom Wordle game to help families raising children with disabilities learn education-related terms and acronyms. Customizations made on an open-source React Wordle repository. Created for Undivided.',
+      'A custom Wordle game adapted from an open-source repository. Encourages players to learn about Individualized Education Programs. Created for Undivided.',
     links: [
       { site: 'GitHub', url: 'https://github.com/toriwei/iepordle' },
       { site: 'Website', url: 'https://iepordle.web.app/' },

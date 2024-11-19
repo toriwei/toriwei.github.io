@@ -1,19 +1,27 @@
 const experiences = [
   {
-    name: 'Freelance',
-    subtitle: 'LA / May 2024 \u{2013} Present',
+    name: 'theCoderSchool',
+    subtitle: 'LA / Sep 2024 \u{2013} Present',
     bullets: [
-      'Creates customized portfolios using Figma, Squarespace, and WordPress, focusing on user-friendly design',
-      'Communicates with clients to ensure product reflects personal branding, ensuring satisfaction across iterations',
+      'Instructs 1:1 coding lessons Scratch, Python, and Java using personalized project-based curriculum',
+      'Leads offsite afterschool programs, managing weekly curriculum for K-8 students across skill levels',
+    ],
+  },
+  {
+    name: 'Freelance',
+    subtitle: 'LA / May 2024 \u{2013} Sep 2024',
+    bullets: [
+      'Created customized portfolios using Figma, Squarespace, and WordPress, focusing on user-friendly design',
+      'Communicated with clients to ensure product reflected personal branding',
     ],
   },
   {
     name: 'Paramount',
     subtitle: 'SF / Jun \u{2013} Aug 2023',
     bullets: [
-      'Developed CBS News app for OTT platforms using Riot.js, JavaScript, and Sass as a software engineer intern',
+      'Developed CBS News app for OTT platforms using Riot.js, JavaScript, and Sass as a SWE intern',
       'Implemented new channel-pinning feature and resolved full-stack bugs to improve functionality and UX',
-      'Established monorepo by merging 4 codebases and wrote automation scripts to optimize CI/CD workflow',
+      'Established monorepo by utilizing Git and wrote Node.js automation scripts to optimize CI/CD workflow',
     ],
   },
   {
@@ -30,7 +38,7 @@ const experiences = [
     name: 'Undivided',
     subtitle: 'LA / Feb \u{2013} Jul 2022',
     bullets: [
-      'Created IEPordle, a Wordle-like game to help families learn about individualized education plans, from an open-source project',
+      'Created IEPordle from an open-source React project to help families learn about individualized education plans',
       'Ideated game elements with CEO and and research team to align product with mission and branding',
     ],
   },
