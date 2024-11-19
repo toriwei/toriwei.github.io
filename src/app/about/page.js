@@ -22,8 +22,8 @@ export default function About() {
           <p>
             I specialize in full-stack development but have hands-on experience
             with AI, database systems, and UI/UX design as well. As an engineer,
-            I'm driven by solving complex problems, collaborating with others,
-            and creating meaningful interactions with tech.
+            I&#39;m driven by solving complex problems, collaborating with
+            others, and creating meaningful interactions with tech.
           </p>
           <p>
             Currently, I am open to software engineering roles in Los Angeles or
