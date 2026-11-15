@@ -1,10 +1,8 @@
-import { Space_Grotesk } from 'next/font/google'
-import Navbar from './components/navbar'
-import Contact from './components/work/contact'
+import { Inter } from 'next/font/google'
 
 import './globals.css'
 
-const space_grotesk = Space_Grotesk({ subsets: ['latin'], display: 'swap' })
+const font = Inter({ subsets: ['latin'], display: 'swap' })
 
 export const metadata = {
   title: 'Tori Wei',
@@ -13,14 +11,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body className={space_grotesk.className}>
-        <div className='mx-8 md:mx-20 my-4 text-md md:text-lg'>
-          <Navbar />
-          {children}
-          <Contact />
-        </div>
-      </body>
+    <html lang='en' className='min-h-full bg-blue-100'>
+      <body className={font.className}>{children}</body>
     </html>
   )
 }
